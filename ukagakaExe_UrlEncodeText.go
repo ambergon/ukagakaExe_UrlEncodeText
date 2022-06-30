@@ -21,5 +21,5 @@ func main() {
     }
 
     text := url.QueryEscape( searchText )
-    fmt.Println( text )
+    fmt.Print( text )
 }
